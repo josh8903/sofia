@@ -5,7 +5,7 @@ $(document).ready(function () {
   });
 });
 
-// play/pause code - antispam
+// play/pause code
 // $(document).ready(function () {
 //   $(".quacky").click(function () {
 //     var audio = $("#quack")[0];
