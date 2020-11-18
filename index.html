@@ -25,6 +25,15 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script type="text/javascript">
+        (function () {
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("./service-worker.js", { scope: "/" })
+                    .then(() => console.log("Service Worker registered successfully."))
+                    .catch(error => console.log("Service Worker registration failed:", error));
+            }
+        })();
+    </script>
 </body>
 
 </html>
