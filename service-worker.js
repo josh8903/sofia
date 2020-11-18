@@ -1,13 +1,4 @@
-const FILES_TO_CACHE = [
-  "/",
-  "/index.html",
-  "/assets/css/style.css",
-  "/assets/js/script.js",
-  "/assets/img/narwhal.jpg",
-  "/assets/img/bg.jpg",
-  "/assets/mp3/meow.mp3",
-  "https://code.jquery.com/jquery-3.4.1.min.js",
-];
+const FILES_TO_CACHE = ["/"];
 
 const PRECACHE = "precache-v1";
 const RUNTIME = "runtime";
