@@ -1,5 +1,5 @@
 const FILES_TO_CACHE = [
-  "/sofia/",
+  "/",
   "/index.html",
   "/assets/css/style.css",
   "/assets/js/script.js",
